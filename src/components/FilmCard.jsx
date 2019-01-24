@@ -15,7 +15,7 @@ const FilmCard = (props) => {
                     <CardText><span className="font-weight-bold">Description: </span>{props.film.description}</CardText>
                     <CardSubtitle
                     className="border border-dark border-bottom-0 border-left-0 border-right-0"
-                    ><Link to={`"/singlefilm/${props.film.id}"`} className="btn btn-primary mt-2">Get Details</Link>
+                    ><Link to={`/singlefilm/${props.film.id}`} className="btn btn-primary mt-2">Get Details</Link>
                     </CardSubtitle>
                 </CardBody>
             </Card>
